@@ -1,0 +1,25 @@
+.task-list {
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    justify-content: start;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width: 1024px) {
+    .task-list {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .task-list {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .task-list {
+        grid-template-columns: auto;
+    }
+}

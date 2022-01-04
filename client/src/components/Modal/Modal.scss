@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.modal{
+    min-height: 150px;
+    background-color: $white;
+    padding: $body-padding;
+    border-radius: 4px;
+    display: flex;
+}

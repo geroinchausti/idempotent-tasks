@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+
+.task {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    &__title {
+        margin-top: 10px;
+    }
+    &--bordered {
+        border: 1px solid grey;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    &__modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__title{
+            color: $black;
+            margin: 0;
+        }
+
+        &__buttons {
+            display: flex;
+            justify-content: flex-end;
+
+            .button--raised {
+                margin-left: 4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+
+.button {
+    height: 39px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+
+    &--strocked {
+        background: $white;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+
+    &--raised {
+        background: $primary;
+        color: $white;
+    }
+}

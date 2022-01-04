@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.tasks-header {
+    height: $header-height;
+    background: $primary;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px $body-padding;
+
+    &__title {
+        color: $white;
+        font-weight: 400;
+    }
+}
